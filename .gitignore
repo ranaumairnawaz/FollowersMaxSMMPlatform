@@ -1,0 +1,15 @@
+# User Uploads & Media
+uploads/*
+!uploads/.gitkeep
+!uploads/profiles/
+uploads/profiles/*
+!uploads/profiles/.gitkeep
+
+# Local Environment & Secrets
+.env
+*.local
+scratch/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
